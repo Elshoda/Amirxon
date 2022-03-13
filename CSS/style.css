@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+}
+.navbar{
+    width: 100%;
+    background-color: rgb(255,186,8);
+    height: 12.5vh;
+}
+.body{
+    width: 100%;
+    height: 70vh;
+
+}
+.body1{
+    width: 70%;
+    display: inline-block;
+}
+.left{
+    width: 30%;
+    background-color: rgb(250,163,7);
+    height: 70vh;
+    display: inline-block;
+}
+.center{
+    width: 69%;
+    height: 70vh;
+    background-color: rgb(244,140,6);
+    display: inline-block;
+}
+
+.right{
+    width: 29.5%;
+    display: inline-block;
+    height: 70vh;
+}
+.top{
+    width: 100%;
+    height: 35vh;
+    background-color: rgb(232,93,4);
+    /* margin-top: 1vh; */
+}
+.buttom{
+    /* margin-top: 1vh; */
+    width: 100%;
+    height: 35vh;
+    background-color: rgb(220,47,2);
+   
+}
+.footer{
+    width: 100%;
+    height: 12.5vh;
+    background-color: rgb(208,0,0);
+}
+@media(max-width: 767px){
+    .body{
+        width: 100%;
+        height: 70vh;
+    
+    }
+    .body1{
+        width: 49%;
+        display: inline-block;
+    }
+    .left{
+        width: 100%;
+        height: 34.5vh;
+        display: block;
+    }
+    .center{
+        width: 100%;
+        height: 34.5vh;
+        display: block;
+    }
+    
+    .right{
+        width: 49.7%;
+        display: inline-block;
+        height: 70vh;
+    }
+    .top{
+        width: 100%;
+        height: 35vh;
+        /* margin-top: 1vh; */
+    }
+    .buttom{
+        /* margin-top: 1vh; */
+        width: 100%;
+        height: 35vh;
+       
+    }
+}
+@media(max-width:600px){
+    
+    .body1{
+        width: 100%;
+        display: block;
+    }
+    .left{
+        width: 100%;
+        height: 25vh;
+        display: block;
+    }
+    .center{
+        width: 100%;
+        height: 25vh;
+        display: block;
+    }
+    
+    .right{
+        width: 100%;
+        display: block;
+        height: 70vh;
+    }
+    .top{
+        width: 100%;
+        height: 20vh;
+        /* margin-top: 1vh; */
+    }
+    .buttom{
+        /* margin-top: 1vh; */
+        width: 100%;
+        height: 20vh;
+       
+    }
+    .footer{
+        margin-top:20vh;
+    }
+}
